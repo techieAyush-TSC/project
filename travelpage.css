@@ -1,0 +1,1112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: rgba(250, 248, 237, 255);
+    font-family: 'Poppins';
+}
+.main-nav-container{
+    height: 65px;
+}
+.travel-nav{
+    width:100%;
+    opacity: 0.85;
+}
+li:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+}
+li:hover:after {
+	width: 20%;
+  margin-left:auto;
+	background: black;
+}
+.nav-container{
+
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+.nav-container input[type="checkbox"], label{
+    order: 3;
+    display: none;
+    margin-left: 5%;
+    justify-content: center;
+}
+.nav-links{
+    display: flex;
+    margin-left: 1.5rem;
+}
+.travel-head-container{
+    display: flex;
+    width: auto;
+}
+.travel-head-container h3{
+    margin-top: 5%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: lightslategray; 
+    margin-left: 1.5rem;
+}
+.empty-nav{
+    width: 45%;
+}
+.book-btn{
+    border: 1px solid orangered;
+    color: orangered;
+    width: 10%;
+    height: 6vh;
+    width: 8vw;
+    border-radius: 20px;
+    background-color: rgba(250, 248, 237, 255);
+}
+.book-btn-img{
+    height: 1.8vh;
+}
+/********discover-place********/
+.discover-place{
+    height: 89%;
+    display: flex;
+}
+.empty-discover{
+    width: 6%;
+}
+.discover-container{
+    width:32%;
+    height: 87%;
+    padding-top: 2%;
+}
+.discover-container h1{
+    font-size: 9vh;
+    line-height: 66px;
+}
+.discover-container p{
+    color: gray;
+    line-height: 25px;
+}
+.search-date{
+    border-radius: 35px;
+    margin-top: 10%;
+    height: 60px;
+    width: 95%;
+    background-color: white;
+    display: flex;
+}
+.search-date-one{
+    border-right: 1px solid lightslategray;
+    width: 12vw;
+    height: 8vh;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 5%;
+}
+.search-date-two{
+    width: 11vw;
+    height: 8vh;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 5%;
+}
+.search-date-three{
+    display: flex;
+    height: 7vh;
+    margin-left: 10px;
+    margin-top: 8px
+}
+.discover-img{
+    width:51%;
+    height: 87%;
+}
+.man-passport-img{
+    position: relative;
+    height: 119%;
+    width: 90%;
+    padding-left: 6%;
+    z-index: -1;
+    margin-top: -15%;
+}
+.man-passport-container{
+    background-color: #ffd482;
+    margin-left: 20%;
+    width: 71%;
+    height: 59vh;
+    border-radius: 80%;
+    position: relative;
+    z-index: -2;
+    top:5%;
+}
+.man-zindex-container{
+    position: absolute;
+    height: 21%;
+    background-color: white;
+    border-radius: 20px;
+    width: 13%;
+    left: 49%;
+    top:50%;
+    z-index: -1;
+}
+.man-zindex{
+    height: 60%;
+    width: 100%;
+}
+.man-zindex-container h5{
+    text-align: center;
+}
+.small-img{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: 72%;
+    left: 12%;
+}
+.small-img-two{
+    position: absolute;
+    left: 20%;
+}
+.small-img-three{
+    position: absolute;
+    left: 40%;
+}
+/*****categories********/
+.categories-containers{
+    height: 570px;
+    width: 100%;
+
+}
+.categories{
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+.about-categories{
+    width:26%;
+    height: 77%;
+}
+.about-categories h1{
+    font-size: 11vh;
+    line-height: 19vh;
+}
+.about-categories p{
+    color: grey;
+    line-height: 4vh;
+}
+.empty-space-categories{
+    width: 55%;
+    height: 45%;
+}
+.next-categories{
+    height: 45%;
+    margin-top: 3%;
+}
+.categories-carts-container{
+    width: 100%;
+    height: 270px;
+    display: flex;
+}
+.categories-carts{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cart{
+    height: 260px;
+    width: 170px;
+    justify-content: space-between;
+    background-color: rgba(250, 248, 237, 255);
+}
+.cart p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+/***********our stories***********/
+.our-stories{
+    height: 95%;
+    display: flex;
+}
+.empty-story{
+    width: 6%;
+    order: 1;
+}
+.empty-discover2{
+    width: 6%;
+    order: 3;
+}
+.story-container{
+    width:52%;
+    height: 97%;
+    padding-top: 2%;
+    order: 4;
+    margin-left: 100px;
+    
+}
+.story-container h4{
+    color: orangered;
+    line-height: 30px;
+    letter-spacing: 4px;
+    font-size: large;
+}
+.story-container h1{
+    font-size: 10vh;
+    line-height: 65px;
+}
+.story-container p{
+    color: gray;
+    line-height: 25px;
+    width: 75%;
+}
+.achievements{
+    margin-top: 6%;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(250, 248, 237, 255);
+    display: flex;
+    margin-left: -31px;
+    
+}
+.achievements h2{
+    font-size: xx-large;
+    color: orangered;
+}
+.achievements p{
+    font-size: larger;
+}
+.ach-one ,.ach-two ,.ach-three{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 8vw;
+    height: 21vh;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 5%;
+}
+.adventure-img{
+    width:31%;
+    height: 97%;
+    order: 2;
+}
+.adventure-man-img{
+    position: relative;
+    height: 113%;
+    width: 95%;
+    padding-left: 0%;
+    z-index: -1;
+    margin-top: -12%;
+}
+.man-adventure-container{
+    background-color: #ffd482;
+    margin-left: 1%;
+    width: 100%;
+    height: 60vh;
+    border-radius: 80%;
+    position: relative;
+    z-index: -2;
+    top:12%;
+}
+/*******popular destinations***********/
+.popular-destinations-container{
+    height: 570px;
+    width: 100%;
+}
+.empty-space-dest{
+    width:51%;
+}
+.next-categories{
+    margin-left: -4%;
+}
+.destinations{
+    display: flex;
+}
+.destination-head{
+    width: 30%;
+    font-size: x-large;
+    margin-left: 3%;
+}
+.destination-cart-container{
+    height: 60vh;
+    display: flex;
+    
+}
+.destination-cart{
+    width:90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cart-dest{
+    border: 3px solid white;
+    width: 30%;
+    border-radius: 5%;
+    background-color: #faf8ed;
+}
+.destination-img{
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+}
+.cart-dest h2{
+    padding: 2%;
+}
+.cart-dest h5{
+    padding: 2%;
+    color: gray;
+}
+.cart-dest-div{
+    display: flex;
+    width: 99%;
+    padding: 2%;
+    justify-content: space-between;
+}
+.cart:hover img{
+    opacity: 1;
+    /* width: 10vw; */
+    
+}
+.cart:hover .middle{
+    opacity: 1;
+    
+}
+
+.cart{
+    position: relative;
+    cursor: pointer;
+}
+.middle{
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    text-align: center;
+  }
+  .middle p{
+    color: white;
+  }
+  
+
+
+.empty-tour{
+    width: 45%;
+}
+.book-now-btn{
+    width: 25%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgba(250, 248, 237, 255);
+}
+.bk-now-btn{
+    background-color: black;
+    color: whitesmoke;
+}
+/********top-destinations********/
+.top-destinations{
+    width: 100%;
+    height: 640px;
+}
+.top-dest-head{
+    height: 200px;
+    text-align: center;
+}
+.top-dest-head p{
+    line-height: 7vh;
+    color: gray;
+}
+.top-dest-head h1{
+    font-size: 10vh;
+}
+.top-dest-btn{
+    border: 1px solid black;
+    width: 7%;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #faf8ed;
+}
+.top-dest-btn-{
+    background-color: black;
+    color: white;
+}
+.top-dest-cart{
+    display: flex;
+    height: 400px;
+}
+.dest-cart-one{
+    width:22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.name-dest{
+    position: absolute;
+    color: white;
+    left: 3%;
+    top: 34%;
+}
+.name-dest-one{
+    position: absolute;
+    color: white;
+    left: 3%;
+    top: 84%;
+}
+.name-dest-two{
+    position: absolute;
+    color: white;
+    left: 13%;
+    top: 84%;
+}
+.name-dest-three{
+    position: absolute;
+    color: white;
+    left: 3%;
+    top: 34%;
+}
+.name-dest-thre{
+    position: absolute;
+    color: white;
+    left: 3%;
+    top: 84%;
+}
+.name-dest-thr{
+    position: absolute;
+    color: white;
+    left: 40%;
+    top: 84%;
+}
+.cart-one-img{
+    height: 31vh;
+    width: 100%;
+    margin-top: 2%;
+    justify-content:space-between;
+    z-index: -1;
+}
+.rating{
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 13%;
+    text-align: center;
+    border-radius: 38%;
+    left: 6%;
+    top: 4%;
+}
+.rating-one{
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 13%;
+    text-align: center;
+    border-radius: 38%;
+    left: 6%;
+    top: 55%;
+}
+.dest-cart-two{
+    height: 63vh;
+    width: 31%;
+    position: relative;
+}
+.rating-two{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 10%;
+    text-align: center;
+    border-radius: 38%;
+    left: 12%;
+    top: 4%;
+}
+.cart-two-img{
+    height: 62vh;
+    padding-left: 10%;
+    width: 27vw;
+    margin-top: 1%;
+}
+.dest-cart-three{
+    width: 37%;
+    height: 63vh;
+    position: relative;
+}
+.cart-three-one{
+    height: 32vh;
+    width: 97%;
+}
+.rating-three{
+      left: 2%;
+    top: 3%;
+}
+.cart-three-two{
+    margin-top: 2%;
+    height: 29vh;
+    width: 12vw;
+}
+.rating-thre{
+    left: 2%;
+    top: 55%;
+}
+.rating-three, .rating-thre, .rating-thr{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 10%;
+    text-align: center;
+    border-radius: 38%;
+
+}
+.cart-three-three{
+    height: 29vh;
+    width: 23.5vw;
+    padding-left: 3%;
+}
+.rating-thr{
+    left: 39%;
+    top: 55%;
+}
+/************customer-about-us***********/
+.customer-container{
+    height: 80vh;
+    display: flex;
+}
+.customer-container-img{
+    width: 45%;
+    height: 534px;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+.customer-img{
+    width: 20vw;
+    height: 80%;
+    padding-left: 10%;
+}
+.camera-man{
+    height: 88%;
+    width: 100%;
+    border-radius: 110px;
+    background-color: #ee8162;
+}
+.customer-container-about{
+    width: 45%;
+    height: 519px;
+}
+.customer-about{
+    height: 340px;
+    width:70%;
+    margin-top: 15%;
+}
+.customer-about h1{
+    font-size: 50px;
+}
+.customer-comments{
+    padding: 30px;
+    height: 55%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.customer-comments p{
+    color: gray;
+    line-height: 20px;
+}
+/***********signupcontainer************/
+.signup-container{
+    height:400px;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+}
+.signup{
+    width:80%;
+    height: 300px;
+    background-color: #ffd482;
+    text-align: center;
+    border-radius: 20px;
+}
+.signup h1{
+    line-height: 100px;
+}
+.signup-para{
+    
+    color: gray;
+    line-height: 20px;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.email-input{
+    width: 40%;
+    height: 1vh;
+    border-radius: 10px;
+    border-style: none;
+    padding: 3%;
+}
+.input-field{
+    position: relative;
+    margin-top: 51px;
+}
+.input-image{
+    position: absolute;
+    left: 65%;
+    top:25%;
+    width: 30px;
+    border-radius: 20%;
+}
+/*********footer**************/
+.footer-container{
+    height: 350px;
+}
+.footer{
+    height: 250px;
+    display: flex;
+    margin-left: 8%;
+}
+.footer-dot{
+    margin-top: 16%;
+}
+.about-trafalgar{
+    height: 40px;
+    width:300px;
+    margin-left: 25%;
+    margin-top: 25%;
+    color: black;
+    line-height: 20px;
+    display: flex;
+}
+.about-trafalgar img{
+    height: 40px;
+    margin-top: -4%;
+}
+.enjoy-footer{
+    height: 100px;
+    width: 130px;
+    margin-left: 25%;
+    color: gray;
+    line-height: 120%;
+}
+.f-footer{
+    height: 200px;
+    width: 200px;
+    margin-top: 4%;
+    margin-left: 5%;
+    color: black;
+}
+.f-footer h4 {
+    line-height: 50px;
+}
+.f-footer p {
+    line-height: 25px;
+    color: gray;
+}
+.crp{
+    display: flex;
+    margin-top: 2%;
+}
+
+
+
+@media (max-width:768px){
+    body{
+        font-size: 13px;
+    }
+    .travel-nav{
+        opacity: 1;
+        margin-left: 10%;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .small-img img{
+        display: none;
+    }
+    ul{ 
+        position: fixed;
+        width: 100%;
+        height: 45vh;
+        background-color: lightblue;
+        top: 70px;
+        left: -110%;
+        transition: all .5s;  
+    }
+    .nav-links{
+        display: block;
+        padding-top: 10px;
+    }
+    
+    nav ul li a{
+        padding-top: 20px;
+        font-size: 20px;
+        display: block;
+    }
+    
+    #check:checked ~ .nav-links{
+        left:-22;
+    }
+    
+    .book-btn{
+        width: 30%;
+        height: 30px;
+    }
+    .small-img{
+        top:86%;
+        left:0%
+    }
+    .small-img img{
+        height: 35px;
+    }
+    .man-zindex-container{
+        top:34%;
+        width: 12%;
+        height: 10%;
+        left: 65%;
+    }
+    .man-passport-container{
+        height: 20vh;
+    }
+    .man-zindex-container h5 {
+      font-size: x-small;
+    }
+    .discover-container{
+        width: 49%;
+        height: 73%;
+        margin-left: 2%;
+    }
+    .discover-container h1{
+        font-size: 173%;
+        line-height: 31px;
+    }
+    .discover-container p{
+        line-height: 25px;
+    }
+    .discover-img{
+        height: 66%;
+        margin-left: 7%;
+    }
+    .discover-place{
+        height: 58%;
+        margin-left: 10%;
+    }
+    .search-date {
+        margin-top: 57%;
+        width: 217%;
+        background-color: white;
+        margin-left: 2%;
+    }
+    .search-date-one {
+        width: 47vw;
+        margin-left: 4%;
+    }
+    .search-date-two {
+        width: 49vw;
+    }
+    /****categories******/
+    .next-categories{
+        display: none;
+    }
+    .empty-space-categories{
+        display: none;
+    }
+    .categories-carts{
+        margin-left: 20%;
+    }
+    .about-categories {
+        width: 100%;
+        height: 85%;
+        text-align: center;
+        margin-left: 17%;
+        margin-right: 2%;
+    }
+    .about-categories h1 {
+        font-size: 6vh;
+        line-height: 7vh;
+    }
+    .categories{
+        height: 9%;
+    }
+    .categories-containers{
+        height: 1800px;
+    }
+    /*********our stories**********/
+    .empty-story .empty-discover2{
+        display: none;
+    }
+    .our-stories{
+        height: 70%;
+        margin-left: 20%;
+    }
+    .story-container{
+        width: 50%;
+        margin-left: 10px;
+    }
+    .story-container h1{
+        font-size: 3vh;
+        line-height: 40px;
+        margin-left: -120px;
+    }
+    .story-container h4{
+        font-size: larger;
+        margin-left: -79%;
+    }
+    .story-container p{
+        width: 100%;
+    }
+    .man-adventure-container{
+        width: 100%;
+        height: 20vh;
+        top: 19%;
+    }
+    .adventure-img{
+    height: 23%;
+    margin-top: 34%;
+    }
+    .achievements{
+        margin-left: -130px;
+        height: 120px;
+        width: 150%;
+    }
+    .achievements h2{
+        font-size: large;
+    }
+    .achievements p{
+        font-size: small;
+    }
+    .ach-one, .ach-two, .ach-three {
+        margin-left: 4%;
+        height: 17vh;
+        width: 23vw;
+    }
+    /***********top-destination**************/
+    .name-dest{
+        left:10%;
+        top:76%
+    }
+    .name-dest-one{
+        left: 118%;
+        top: 78%;
+    }
+    .rating{
+        left: 10%;
+        top: 6%;
+    }
+    .rating-two{
+        left: 8%;
+        top: 10%;
+    }
+    .name-dest-two{
+        left: 7%;
+        top:80%
+    }
+    .rating-three {
+        left: 5%;
+        top: 6%;
+    }
+    .rating-thre {
+        left: 4%;
+    }
+    .name-dest-thre {
+        left: 5%;
+        top: 85%;
+    }
+    .rating-thr {
+        left: 48%;
+    }
+    .name-dest-thr{
+        left: 48%;
+    }
+    .name-dest-three {
+        left: 5%;
+        top: 38%;
+    }
+    .rating-one{
+        left: 117%;
+        top: 6%;
+    }
+    .empty-space-dest{
+        display: none;
+    }
+    .destination-head {
+        width: 90%;
+        font-size: smaller;
+        line-height: 100px;
+        margin-left: 20%;
+    }
+    .destination-cart{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 20%;
+    }
+    .popular-destinations-container{
+        height: 1250px;
+    }
+    .cart-dest{
+        width: 100%;
+        margin-top: 5%;
+    }
+    /*****top destinations***********/
+    .empty-discover{
+        display: none;
+    }
+    .top-destinations{  
+        height: 160vh;
+    }
+    .top-dest-head{
+        line-height: 60px;
+        width: 100%;
+        margin-left: 10%;
+    }
+    .top-dest-head h1{
+        font-size: 5vh;
+    }
+    .top-dest-btn{
+        width: 17%;
+        height: 35px;
+    }
+    .top-dest-head p{
+        line-height: 4vh;
+    }
+    .top-dest-cart{
+        flex-direction: column;
+    }
+    .cart-one-img{
+        margin-left: 12px;
+    }
+    .dest-cart-one{
+        width: 53%;
+        flex-direction: row;
+        margin-left: -1%;
+    }
+    .dest-cart-two {
+        height: 55vh;
+        width: 90%;
+    }
+    .cart-two-img {
+        height: 34vh;
+        width: 108vw;
+        margin-left: 12px;
+        margin-top: 4%;
+        padding-left: 0%;
+    }
+    .cart-three-one {
+        height: 30vh;
+        width: 96%;
+        margin-top: 12px;
+        margin-left: 12px;
+    }
+    .dest-cart-three{
+        width: 113%;
+    }
+    .cart-three-two {
+        margin-left: 12px;
+        margin-top: 2%;
+        height: 28vh;
+        width: 45vw;
+    }
+    .cart-three-three {
+        height: 28vh;
+        width: 61.5vw;
+        padding-left: 3%;
+        margin-top: 2%;
+    }
+    /************customer***********/
+    .customer-img {
+        width: 20vw;
+        height: 36%;
+        padding-left: 0%;
+    }
+    .camera-man{
+        height:fit-content;
+    }    
+    .customer-about {
+        height: 360px;
+        width: 100%;
+        margin-top: 15%;
+        margin-left: -20%;
+    }
+    .customer-container-about {
+        width: 48%;
+        height: 45vh;
+    }
+    .customer-about h1 {
+        font-size: 29px;
+        width: 100%;
+    }
+    .customer-container{
+        height: 70vh;
+        margin-left: 15%;
+    }
+    .customer-comments {
+        padding: 6px;
+        height: 66%;
+        width: 200px;
+        margin-left: -1%;
+    }
+    .customer-container-img{
+        height: 45vh;
+    }
+    /******signup*********/
+    .signup{
+        width: 99%;
+        height: 208px;
+    }
+    .signup-container{
+        height: 27vh;
+        width: 100%;
+        margin-left: 10%;
+    }
+    .signup p{
+        line-height: 18px;
+    }
+    .signup-para{
+        width: 59%;
+        margin-left: 20%;
+    }
+    .signup h1{
+        line-height: 35px;
+    }
+    .input-field{
+        margin-top: 23px;
+    }
+    .email-input{
+        height: 5vh;
+        width: 70%;
+    }
+    .input-image {
+        left: 75%;
+        top: 23%;
+        width: 20px;
+    }
+    /*********footer*************/
+    .footer{
+        height: 480px;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .ftr-head{
+        margin-left: 9%;
+    }
+    .f-footer{
+        width: 70px;
+    }
+    .crp{
+        margin-left: 10%;
+    }
+
+}
